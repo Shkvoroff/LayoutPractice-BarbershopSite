@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>STYLE-H Barbershop</title>
+  <link rel='favicon' type='image/x-icon' href='img/favicon.ico'/>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+     <a><img src="img/logo.png" width= "190" height="237" alt="Logo of Style-H Barbershop"/></a>
+     <div class="main-container-wrapper">
+       <div class="container">
+         <ul class="site navigation">
+           <li><a href="#">Information</a></li>
+           <li><a href="#">News</a></li>
+           <li><a href="#">Prices</a></li>
+           <li><a href="#">Shop</a></li>
+           <li><a href="#">Contacts</a></li>
+         </ul>
+         <ul class="user navigation">
+           <li><a href="#">Login</a></li>
+         </ul>
+       </div>
+     </div>
+  </nav>
+</header>
+
+<main class="container">
+  <h1 class="visually-hidden">Style-H Barbershop</h1>
+  <section class="features">
+  <h2 class="visually-hidden">Features</h2>
+  <ul class="features-list">
+    <li class="feature-item">
+      <h3>Fast</h3>
+      <p>We do our job fast! Two hours will pass unnoticed and you-the happy owner of a stylish haircut!</p>
+    </li>
+    <li class="feature-item">
+      <h3>Cool</h3>
+      <p>Forget how you cut your hair before. we will make you the star of the football or a movie! not outwardly, anyway</p>
+    </li>
+    <li class="feature-item">
+      <h3>Exspensive</h3>
+      <p>Our masters are professionals in their field and can not be cheap. besides, doesn't the price give you a certain status?</p>
+    </li>
+  </ul>
+  </section>
+</main>
+
+<div class="index-columns">
+  <section class="news">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li class="news-item">
+        <p>We have new drinks in the alcohol collection. Enjoy the flavors of jack daniels!</p>
+        <time datetime="2020-07-21">July 21</time>
+      </li>
+    </ul>
+    <ul class="news-list">
+      <li class="news-item">
+        <p>Our team has new members: andy "the beast", winner of many titles and awards have joined our amazing squad</p>
+        <time datetime="2020-05-17">May 17</time>
+      </li>
+    </ul>
+     <a class="button" href="#">All News</a>
+  </section>
+  <section class="gallery">
+    <h2>Photogallery</h2>
+    <figure class="gallery-content">
+      <a href="#"><img src="img/demo_img.jpg" width="286" height="164" alt="Our Master doing his art"></a>
+    </figure>
+     <button class="button gallery-button gallery-button-back">Previous</button>
+     <button class="button gallery-button gallery-button-next">Next</button>
+  </section>
+</div>
+<div class="index-columns">
+  <section class="contacts">
+  <h2>Contacts</h2>
+  <p>
+    Barbershop «Style-H»<br>
+    Address: Patriku mnt 13a, 10111, Tallinn<br>
+    Phone: +372 56-888-888
+  </p>
+  <p>
+    Opening hours:<br>
+    Mon-Fri: 08:00 - 22:30<br>
+    Sat-Sun: 09:00 - 21:00
+  </p>
+  <a class="button" href="#">How to get there</a>
+  <a class="button" href="#">Feedback</a>
+  </section>
+  <section class="appointment">
+    <h2>Book your visit</h2>
+    <p class= "appointment-info">Choose your desired date and time and we will contact you to confirm your booking</p>
+    <form class="appointment-form" action="#" method="POST">
+      <p class="appointment-item">
+        <label for="appointment-date">Date</label>
+        <input id="appointment-date" type="date" name="date" value="2020-08-15">
+      </p>
+      <p class="appointment-item">
+        <label for="appointment-time">Time</label>
+        <input id="appointment-time" type="time" name="time" value="12:00">
+      </p>
+      <p class="appointment-item">
+        <label for="appointment-name">Your name</label>
+        <input id="appointment-name" type="text" name="name" value="" placeholder="Markus">
+      </p>
+      <p class="appointment-item">
+        <label for="appointment-phone">Phone</label>
+        <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+372 56-111-111">
+      </p>
+      <button class="button" type="submit" name="submit-button">Send</button>
+    </form>
+  </section>
+</div>
+
+<footer class="main-footer">
+  <div class="container">
+    <p class="footer-contacts">
+      Barbershop «Style-H»<br>
+      Address: Patriku mnt 13a, 10111, Tallinn<br>
+      <a href="#">How to find us?</a><br>
+      Phone: +372 56-888-888
+    </p>
+  </div>
+  <div class="footer-social">
+    <b>Follow us!</b>
+    <ul>
+      <li><a class="social-button" href="#">
+        <span class="visually-hidden">Vkontakte</span>
+        <img src="img/vk.png" alt="Vkontakte logo">
+      </a></li>
+      <li><a class="social-button" href="#">
+        <span class="visually-hidden">Facebook</span>
+        <img src="img/facebook.png" alt="Facebook logo">
+      </a></li>
+      <li><a class="social-button" href="#">
+        <span class="visually-hidden">Instagram</span>
+        <img src="img/instagram.png" alt="Instagram logo">
+      </a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="footer-copyright">
+      <a class="button" href="https://github.com/Shkvoroff">Anton Shvkoroff</a>
+    </p>
+  </div>
+</footer>
+<!--
+  <section class="modal modal-login">
+    <h2>Personal Account</h2>
+    <p class="modal-description">Input your username and password</p>
+    <form class="login-form" action="#u" method="post">
+      <p>
+        <label class="visually-hidden" for="user-login">Username</label>
+        <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="email@example.com">
+      </p>
+      <p>
+        <label class="visually-hidden" for="user-password">Password</label>
+        <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="••••••••">
+      </p>
+      <p class="login-help">
+        <label class="login-checkbox">
+          <input type="checkbox" name="remember" class="visually-hidden">
+          <span class="checkbox-indicator"></span>
+          Remember Me
+        </label>
+        <a class="restore" href="#">I forgot my password!!</a>
+      </p>
+      <button class="button" type="submit">Login</button>
+    </form>
+    <button class="modal-close" type="button">Close</button>
+  </section>
+
+  <section class="modal modal-map">
+    <h2 class="visually-hidden">How to find us?</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.3665583842796!2d24.73425771598324!3d59.4102801816872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469294c05850d2a5%3A0x561f78ed7569170d!2sP%C3%A4rnu%20mnt%20142%2C%2011317%20Tallinn!5e0!3m2!1sru!2see!4v1600376069247!5m2!1sru!2see" width="766" height="560" allowfullscreen></iframe>
+    <p><img src="img/map.jpg" width="766" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"></p>
+    <button class="modal-close" type="button">Close</button>
+  </section>
+-->
+</body>
+</html>

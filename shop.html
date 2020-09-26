@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>STYLE-H Barbershop</title>
+  <link rel='favicon' type='image/x-icon' href='img/favicon.ico'/>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-page">
+
+  <header class="main-header">
+    <nav class="main-navigation container">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/mini-logo.png" width="52" height="64" alt="Logo of Style-H Barbershop">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="#">Information</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#l">Prices</a></li>
+        <li class="site-navigation-current"><a href="shop.html">Shop</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li><a class="login-link" href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="сontainer"
+  <h1 class="page-title">Care Products</h1>
+  <ul class="breadcrumbs">
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+    <li>
+      <a href="shop.html">Shop</a>
+    </li>
+    <!-- A “breadcrumb” (or “breadcrumb trail”) is a type of secondary navigation scheme that reveals the user's location in a website or Web application. -->
+    <li class="breadcrumbs-current">Care Products</li>
+  </ul>
+
+  <div class="catalog-columns">
+    <section class="filters">
+    <h2 class="visually-hidden">Products filters</h2>
+    <form class="filter" method="get" action="#">
+      <fieldset>
+        <legend>Manufacturers:</legend>
+        <ul>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+            <label for="filter-baxter-of-california">Baxter of California</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty" id="filter-mr-natty">
+            <label for="filter-mr-natty">Mr Natty</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" id="filter-suavecito" checked>
+            <label for="filter-suavecito">Suavecito</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin-goetz" id="filter-malin-goetz">
+            <label for="filter-malin-goetz">Malin+Goetz</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays">
+            <label for="filter-murrays">Murray’s</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" id="filter-american-crew" checked>
+            <label for="filter-american-crew">American Crew</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Group of Products:</legend>
+        <ul>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving" id="filter-shave">
+            <label for="filter-shave">Shaving accessories</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care" id="filter-care" checked>
+            <label for="filter-care">Care Products</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accessories" id="filter-accessories">
+            <label for="filter-accessories">Accessories</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button type="submit" class="filter-button button">Show</button>
+    </form>
+  </section>
+
+  <section class="catalog">
+    <h2 class="visually-hidden">Care products list</h2>
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <a href="shop-item.html">
+          <h3>
+            <span class="catalog-category">Travel Kit</span>
+            <span class="catalog-item-title">«Baxter of California»</span>
+          </h3>
+          <p class="catalog-item-image">
+            <img src="img/item_1.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
+          </p>
+        </a>
+        <p class="catalog-item-price">
+          <b>55 €</b>
+          <a class="button" href="#">Buy</a>
+        </p>
+      </li>
+      <li class="catalog-item">
+        <a href="shop-item.html">
+          <h3>
+            <span class="catalog-category">Moisturizing Conditioner</span>
+            <span class="catalog-item-title">«Baxter of California»</span>
+          </h3>
+          <p class="catalog-item-image">
+            <img src="img/item_2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
+          </p>
+        </a>
+        <p class="catalog-item-price">
+          <b>15 €</b>
+          <a class="button" href="#">Buy</a>
+        </p>
+      </li>
+
+      <li class="catalog-item">
+        <a href="shop-item.html">
+          <h3>
+            <span class="catalog-category">Hair Gel</span>
+            <span class="catalog-item-title">«Suavecito»</span>
+          </h3>
+          <p class="catalog-item-image">
+            <img src="img/item_3.jpg" width="220" height="165" alt="Гель для волос «Suavecito»">
+          </p>
+        </a>
+        <p class="catalog-item-price">
+          <b>5 €</b>
+          <a class="button" href="#">Buy</a>
+        </p>
+      </li>
+      <li class="catalog-item">
+        <a href="shop-item.html">
+          <h3>
+            <span class="catalog-category">Clay for Hair Styling</span>
+            <span class="catalog-item-title">«American crew»</span>
+          </h3>
+          <p class="catalog-item-image">
+            <img src="img/item_4.jpg" width="220" height="165" alt="Глина для укладки волос «American crew»">
+          </p>
+        </a>
+        <p class="catalog-item-price">
+          <b>10 €</b>
+          <a class="button" href="#">Buy</a>
+        </p>
+      </li>
+      <li class="catalog-item">
+        <a href="shop-item.html">
+          <h3>
+            <span class="catalog-category">Hair Gel</span>
+            <span class="catalog-item-title">«American crew»</span>
+          </h3>
+          <p class="catalog-item-image">
+            <img src="img/item_5.jpg" width="220" height="165" alt="Гель для волос «American crew»">
+          </p>
+        </a>
+        <p class="catalog-item-price">
+          <b>5 €</b>
+          <a class="button" href="#">Buy</a>
+        </p>
+      </li>
+      <li class="catalog-item">
+        <a href="shop-item.html">
+          <h3>
+            <span class="catalog-category">Shaving Kit</span>
+            <span class="catalog-item-title">«Baxter of California»</span>
+          </h3>
+          <p class="catalog-item-image">
+            <img src="img/item_6.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»">
+          </p>
+        </a>
+        <p class="catalog-item-price">
+          <b>65 €</b>
+          <a class="button" href="#">Buy</a>
+        </p>
+      </li>
+    </ul>
+    <ul class="pagination-list">
+      <li class="pagination-item"><a href="#">1</a></li>
+      <li class="pagination-item pagination-item-current"><a>2</a></li>
+      <li class="pagination-item"><a href="#">3</a></li>
+      <li class="pagination-item"><a href="#">4</a></li>
+    </ul>
+  </section>
+  </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p class="footer-contacts">
+        Barbershop «Style-H»<br>
+        Address: Patriku mnt 13a, 10111, Tallinn<br>
+        <a href="#">How to find us?</a><br>
+        Phone: +372 56-888-888
+      </p>
+    <div class="footer-social">
+      <b>Follow us!</b>
+      <ul>
+        <li><a class="social-button" href="#">
+          <span class="visually-hidden">Vkontakte</span>
+          <img src="img/vk.png" alt="Vkontakte logo">
+        </a></li>
+        <li><a class="social-button" href="#">
+          <span class="visually-hidden">Facebook</span>
+          <img src="img/facebook.png" alt="Facebook logo">
+        </a></li>
+        <li><a class="social-button" href="#">
+          <span class="visually-hidden">Instagram</span>
+          <img src="img/instagram.png" alt="Instagram logo">
+        </a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-copyright">
+        <a class="button" href="https://github.com/Shkvoroff">Anton Shvkoroff</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
