@@ -22,8 +22,8 @@ At the moment the project is not finished. Many things need to be redone.
 * PT Sans Font
 
 ## Demo
-* Open https://github.com/Shkvoroff/LayoutPractice-BarbershopSite.git) on your local machine
-* Enjoy the design
+* Copy this repository (https://github.com/Shkvoroff/LayoutPractice-BarbershopSite.git) on your local machine
+* Enjoy the project
 
 ## Features
 List of features ready and TODOs for future development
